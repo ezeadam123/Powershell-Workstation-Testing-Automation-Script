@@ -1,11 +1,4 @@
-﻿
-<# 1. we want to create a powershell script function that will open up a application, and be able to check 
-and see the network adapters tab#>
-
-<# function openDeviceManager(netadtab)   netadtab = network adapter tab
-
-function openNetworkAdapters() #>
-
+#Triple A Aka Ademola Adam Asimolowo
 
 #Variables
 $computer_name = (Get-CimInstance -ClassName Win32_ComputerSystem).Name
